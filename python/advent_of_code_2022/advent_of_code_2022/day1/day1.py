@@ -2,8 +2,9 @@ import os
 
 
 def read_file():
-    print(os.getcwd())
-    with open("./advent_of_code_2022/day1/input.txt") as fp:
+    c = os.getcwd()
+    print(c)
+    with open(f"./advent_of_code_2022/day1/input.txt") as fp:
         return fp.readlines()
 
 

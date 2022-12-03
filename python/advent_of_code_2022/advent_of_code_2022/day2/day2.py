@@ -63,6 +63,7 @@ def part_1():
     total_score = 0
     for l in lines:
         total_score += score1(l) 
+    return total_score
 
 def part_2():
     lines = read_file()
