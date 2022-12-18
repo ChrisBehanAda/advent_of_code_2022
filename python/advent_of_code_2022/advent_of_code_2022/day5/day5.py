@@ -101,7 +101,7 @@ def part_1():
     return move_crates(make_move_9000)
 
 def part_2():
-    return move_creates(make_move_9001)
+    return move_crates(make_move_9001)
 
 print(part_1())
 print(part_2())
